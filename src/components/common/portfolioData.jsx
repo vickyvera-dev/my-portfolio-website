@@ -1,0 +1,51 @@
+export const portfolioProjects = [
+  {
+    title: "Portfolio Website",
+    image: "/images/portfolio-website.png",
+    description: "A slick portfolio website to showcase my work.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "#",
+    code: "#",
+  },
+  {
+    title: "MediCare Website",
+    image: "/images/medicare.png",
+    description:
+      "MediCare is a modern, responsive healthcare website designed to deliver a seamless experience across desktop, tablet, and mobile devices.",
+    tags: ["React", "Tailwind CSS", "UI/UX Design"],
+    live: "https://medicare-red-iota.vercel.app/",
+    code: "https://medicare-red-iota.vercel.app/",
+  },
+  {
+    title: "eStore Website",
+    image: "/images/estore.png",
+    description: "A modern eCommerce platform with clean UI and smooth UX.",
+    tags: ["React", "Tailwind CSS", "UI/UX Design"],
+    live: "https://my-onlinestore-rj4h.vercel.app/",
+    code: "https://my-onlinestore-rj4h.vercel.app/",
+  },
+  {
+    title: "Real Estate Website",
+    image: "/images/real-estate.png",
+    description: "Property listing platform with responsive layouts.",
+    tags: ["React", "Tailwind CSS", "UI/UX Design"],
+    live: "https://real-estate-project-kohl-six.vercel.app/",
+    code: "https://real-estate-project-kohl-six.vercel.app/",
+  },
+  {
+    title: "Game Website",
+    image: "/images/game.png",
+    description: "Interactive browser-based game with animations.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://game-design-beige.vercel.app/",
+    code: "https://game-design-beige.vercel.app/",
+  },
+  {
+    title: "Dashboard Website",
+    image: "/images/dashboard.png",
+    description: "Analytics dashboard with clean UI and charts.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "#",
+    code: "#",
+  },
+];
