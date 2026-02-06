@@ -93,7 +93,7 @@ export default function Portfolios() {
 
        {/*medicare card*/}
     <SwiperSlide>
-  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8' data-aos="zoom-out-right" data-aos-delay="200">
      <a href='https://medicare-red-iota.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
               src="/images/medicare.png"
@@ -129,7 +129,7 @@ export default function Portfolios() {
 
 {/*estore card*/}
   <SwiperSlide>
-  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8' data-aos="zoom-out-right" data-aos-delay="300">
      <a href='https://my-onlinestore-rj4h.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
               src="/images/estoreapp.png"
@@ -165,7 +165,7 @@ export default function Portfolios() {
           
           {/*Real-estate card*/}
           <SwiperSlide>
-            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8' data-aos="zoom-out-left" data-aos-delay="200">
             <a href='https://real-estate-project-kohl-six.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
               src="/images/real-estate.webp"
@@ -195,7 +195,7 @@ export default function Portfolios() {
 
            {/*Game card*/}
            <SwiperSlide>
-            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8' data-aos="zoom-out-left" data-aos-delay="400">
             <a href='https://game-design-beige.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
               src="/images/game-tier.PNG"

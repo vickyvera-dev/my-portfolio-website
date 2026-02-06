@@ -117,8 +117,9 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
+      
       {open && (
-        <div className="fixed top-20 inset-x-0 bg-[#192F01] text-[#F8EFEA] lg:hidden z-40">
+        <div className="fixed top-20 inset-x-0 bg-[#0a0a0a] text-[#F8EFEA] lg:hidden z-40">
           <ul className="flex flex-col items-center gap-6 py-8 text-lg font-medium">
             {[
               "Home",
