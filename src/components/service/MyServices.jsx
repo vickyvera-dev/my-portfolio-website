@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BsChevronBarExpand, BsGraphUp, BsKey, BsSearch, BsShieldCheck } from "react-icons/bs";
 import { FaBezierCurve, FaLaptopCode } from "react-icons/fa";
@@ -69,7 +68,8 @@ function MyServices() {
                 <a
                   className="flex flex-row gap-2 border border-[#3F6B12] text-[#3F6B12] font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-[#3F6B12] hover:text-white hover:scale-x-105"
                 >
-                  <span>Explore More</span>                  
+                  <a
+              href="https://github.com/vickyvera-dev">Explore More</a>                  
                 </a>
               </div>
             </div>
@@ -119,7 +119,8 @@ function MyServices() {
                 <a
                   className="flex flex-row gap-2 bg-[#3F6B12] text-white font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-white hover:text-[#3F6B12] hover:scale-x-105 hover:border hover:border-[#3F6B12] border-white border"
                 >
-                  <span>Get In Touch</span>                  
+                  <a
+              href="#contact">Get In Touch</a>                  
                 </a>
               </div>
             </div>
@@ -169,7 +170,8 @@ function MyServices() {
                   
                   className="flex flex-row gap-2 border border-[#3F6B12] text-[#3F6B12] hover:bg-[#3F6B12] hover:text-white font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-[#3F6B12]hover:text-white hover:scale-x-105"
                 >
-                  <span>Learn More</span>
+                  <a
+              href="https://github.com/vickyvera-dev">Learn More</a>
                   </a>
               </div>
             </div>
@@ -215,10 +217,11 @@ function MyServices() {
            
               {/* BUTTON */}
               <div className="w-full flex justify-center mt-6">
-                <a
-                  className="flex flex-row gap-2 border border-[#3F6B12] text-[#3F6B12]font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-[#3F6B12] hover:text-white hover:scale-x-105"
+                <a href="https://github.com/vickyvera-dev"
+                  className="flex flex-row gap-2 border border-[#3F6B12] text-[#3F6B12] font-bold rounded-full py-3 px-6 justify-center items-center transition-all ease-in-out duration-300 hover:bg-[#3F6B12] hover:text-white hover:scale-x-105"
                 >
-                  <span>Learn More</span>
+                  <a
+              href="https://github.com/vickyvera-dev">Learn More</a>
                  
                 </a>
               </div>
@@ -227,7 +230,7 @@ function MyServices() {
         </div>
 
         <div className="flex justify-center mt-12" data-aos="fade-up" data-aos-delay="600">
-          <a
+          <a href="#contact"
           className="relative inline-block px-6 py-3 font-bold text-[#3F6B12] rounded-full overflow-hidden group border border-[#3F6B12] justify-center "
         >
           {/* Background */}
@@ -235,7 +238,8 @@ function MyServices() {
 
           {/* Button Text */}
           <span className="relative z-10 group-hover:text-white flex flex-row gap-2 items-center">
-            <span>Discover All Our Services </span>
+            <a
+              href="#contact">Discover All Our Services </a>
             <span>
               <HiOutlineArrowNarrowRight
                 size={24}

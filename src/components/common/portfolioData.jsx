@@ -1,7 +1,7 @@
 export const portfolioProjects = [
   {
     title: "Portfolio Website",
-    image: "/images/portfolio-website.png",
+    image: "/images/amarachifolio(1).png",
     description: "A slick portfolio website to showcase my work.",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     live: "#",
@@ -34,7 +34,7 @@ export const portfolioProjects = [
   },
   {
     title: "Game Website",
-    image: "/images/game.png",
+    image: "/images/game-tier.PNG",
     description: "Interactive browser-based game with animations.",
     tags: ["HTML", "CSS", "JAVASCRIPT"],
     live: "https://game-design-beige.vercel.app/",

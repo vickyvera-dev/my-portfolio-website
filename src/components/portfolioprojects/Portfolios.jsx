@@ -15,6 +15,15 @@ export default function Portfolios() {
           My <span className="text-[#DED369] ml-2">Portfolio</span>
           <span className="absolute left-1/2 -bottom-2 w-16 h-1 bg-[#F3D849] rounded-full -translate-x-1/2"></span>
         </h2>
+        <style>
+{`
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #192F01;
+  },
+  
+`}
+</style>
 
         <Swiper
   effect="coverflow"
@@ -23,12 +32,13 @@ export default function Portfolios() {
   slidesPerView="auto"
   loop={true}
   coverflowEffect={{
-    rotate: 45,        // stronger tilt (matches your image)
+    rotate: 45,       
     stretch: -20,      // overlap cards slightly
     depth: 300,        // pushes side cards backward
     modifier: 1,
     slideShadows: false,
   }}
+  
    breakpoints={{
     0: {
       slidesPerView: 1,
@@ -43,16 +53,19 @@ export default function Portfolios() {
   pagination={{ clickable: true }}
   navigation={true}
   modules={[EffectCoverflow, Pagination, Navigation]}
+  
   className="mt-12">
            {/*portfolio card*/}
           <SwiperSlide>
-  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+  <div className='bg-[#E0F2E9] shadow-lg rounded pb-8' data-aos="zoom-out-down" data-aos-delay="100">
     <div className="overflow-hidden flex justify-center">
+      <a href="https://my-portfolio-website-rho-snowy.vercel.app/">
       <img
-        src="/images/portfolio-website.png"
+        src="/images/amarachifolio(1).png"
         alt="profile"
         className="w-full h-full object-cover transition-all duration-300 hover:scale-125"
-      />
+      /></a>
+      
     </div>
 
     <div className='ml-4'>
@@ -71,8 +84,8 @@ export default function Portfolios() {
       </div>
 
       <div className='flex gap-8 mt-4'>
-        <a href='#' className='font-bold text-[#192F01] hover:underline'>Live Demo</a>
-        <a href='#' className='font-bold text-[#192F01] hover:underline'>View Code</a>
+        <a href='#https://my-portfolio-website-rho-snowy.vercel.app/' className='font-bold text-[#192F01] hover:underline'>Live Demo</a>
+        <a href='#https://my-portfolio-website-rho-snowy.vercel.app/' className='font-bold text-[#192F01] hover:underline'>View Code</a>
       </div>
     </div>
   </div>
@@ -185,14 +198,14 @@ export default function Portfolios() {
             <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
             <a href='https://game-design-beige.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
-              src="/images/real-estate.webp"
+              src="/images/game-tier.PNG"
               alt="profile"
               className="w-full h-full object-cover z-10 overflow-hidden transition-all ease-in-out duration-300 hover:scale-125"
             />
             </a>
             <div className='ml-4'>
                <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>Game Website</h2>
-             <p className='text-gray-600 mt-2'>MediCare is a modern, responsive healthcare website designed to deliver a seamless experience across desktop, tablet, and mobile devices.</p>
+             <p className='text-gray-600 mt-2'>A modern game dashboard designed for efficient game featuring interactive charts, player statistics and user controls</p>
              <div className='flex flex-row gap-4 mt-8 flex-wrap'>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#HTML</button>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#CSS</button>
@@ -213,16 +226,16 @@ export default function Portfolios() {
            {/*Dashboard card*/}
            <SwiperSlide>
             <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
-            <a href='https://game-design-beige.vercel.app/' className="overflow-hidden flex justify-center">
+            <a href='https://google-design-djcm.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
-              src="/images/medicare.png"
+              src="/images/dashboards.PNG"
               alt="profile"
               className="w-full h-full object-cover z-10 overflow-hidden transition-all ease-in-out duration-300 hover:scale-125"
             />
             </a>
             <div className='ml-4'>
                <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>Dashboard Website</h2>
-             <p className='text-gray-600 mt-2'>MediCare is a modern, responsive healthcare website designed to deliver a seamless experience across desktop, tablet, and mobile devices.</p>
+             <p className='text-gray-600 mt-2'>A modern admin dashboard designed for efficient data management and visualization, features interactive charts and user controls</p>
              <div className='flex flex-row gap-4 mt-8 flex-wrap'>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#HTML</button>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#CSS</button>
@@ -240,19 +253,19 @@ export default function Portfolios() {
            </SwiperSlide>
           
 
-           {/*Book-Store card*/}
+           {/*e-commerce-cards design*/}
            <SwiperSlide>
             <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
-            <a href='https://game-design-beige.vercel.app/' className="overflow-hidden flex justify-center">
+            <a href='https://my-e-commerce-card-design.vercel.app/' className="overflow-hidden flex justify-center">
                 <img
-              src="/images/medicare.png"
+              src="/images/e-commerce.PNG"
               alt="profile"
               className="w-full h-full object-cover z-10 overflow-hidden transition-all ease-in-out duration-300 hover:scale-125"
             />
             </a>
             <div className='ml-4'>
-               <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>Book-Store Website</h2>
-             <p className='text-gray-600 mt-2'>MediCare is a modern, responsive healthcare website designed to deliver a seamless experience across desktop, tablet, and mobile devices.</p>
+               <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>e-commerce-cards design</h2>
+             <p className='text-gray-600 mt-2'>A modern website developed using React.js and Tailwind CSS, created to showcase and sell food items to customers around the world.</p>
              <div className='flex flex-row gap-4 mt-8 flex-wrap'>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#HTML</button>
               <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#CSS</button>
@@ -261,8 +274,67 @@ export default function Portfolios() {
              </div>
 
              <div className='flex flex-row items-center gap-30 mt-6'>
-              <a href='https://game-design-beige.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>Live Demo</a>
-              <a href='https://game-design-beige.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>View Code</a>
+              <a href='https://my-e-commerce-card-design.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>Live Demo</a>
+              <a href='https://my-e-commerce-card-design.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>View Code</a>
+             </div>
+            </div>
+
+          </div>
+           </SwiperSlide>
+
+           {/*Coffeee website*/}
+           <SwiperSlide>
+            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+            <a href='https://vick-tech-coffee-website.vercel.app/' className="overflow-hidden flex justify-center">
+                <img
+              src="/images/coffee-laptop2(1).png"
+              alt="profile"
+              className="w-full h-full object-cover z-10 overflow-hidden transition-all ease-in-out duration-300 hover:scale-125"
+            />
+            </a>
+            <div className='ml-4'>
+               <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>Coffeee website</h2>
+             <p className='text-gray-600 mt-2'> A modern coffee website designed to showcase coffee products, menus, and brand identity with clean, responsive user interface.</p>
+             <div className='flex flex-row gap-4 mt-8 flex-wrap'>
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#HTML</button>
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#CSS</button>
+            
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#JAVASCRIPT</button>
+             </div>
+
+             <div className='flex flex-row items-center gap-30 mt-6'>
+              <a href='https://vick-tech-coffee-website.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>Live Demo</a>
+              <a href='https://vick-tech-coffee-website.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>View Code</a>
+             </div>
+            </div>
+
+          </div>
+           </SwiperSlide>
+
+
+             {/*game website*/}
+           <SwiperSlide>
+            <div className='bg-[#E0F2E9] shadow-lg rounded pb-8'>
+            <a href='https://game-site-sandy-zeta.vercel.app/' className="overflow-hidden flex justify-center">
+                <img
+              src="/images/gd-labtop(1).png"
+              alt="profile"
+              className="w-full h-full object-cover z-10 overflow-hidden transition-all ease-in-out duration-300 hover:scale-125"
+            />
+            </a>
+            <div className='ml-4'>
+               <h2 className='text-[#192F01]  font-bold text-lg  mt-3'>Game website</h2>
+             <p className='text-gray-600 mt-2'> A modern game app designed for efficient game featuring interactive charts, player statistics, user controls</p>
+             <div className='flex flex-row gap-4 mt-8 flex-wrap'>
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#HTML</button>
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#CSS</button>
+            
+              <button className='bg-yellow-600 text-white rounded-full py-2 px-5 shadow'>#JAVASCRIPT</button>
+             </div>
+
+             <div className='flex flex-row items-center gap-30 mt-6'>
+              <a href='https://game-site-sandy-zeta.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>Live Demo</a>
+              <a href='https://game-site-sandy-zeta.vercel.app/' className='font-bold text-lg text-[#192F01] hover:underline'>View Code</a>
              </div>
             </div>
 
