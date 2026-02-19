@@ -44,7 +44,7 @@ export default function ContactMe() {
         </div>
 
         <div
-          className="py-16 bg-[#0a0a0a]  lg:px-22 lg:pl-26 px-6"
+          className="py-16 bg-[#0a0a0a] lg:px-22 lg:pl-26 px-6"
           data-aos="fade-up"
           data-aos-delay="100"
         >

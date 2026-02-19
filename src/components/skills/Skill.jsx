@@ -160,7 +160,7 @@ function Skill() {
               <Icon icon="logos:nodejs-icon" className="w-6 h-6 text-[#DED369]" /> Node.js
             </h2>
               <p className="text-sm leading-relaxed text-[#F8EFEA]/80 mb-4">
-                Node.js allows developers to run JavaScript on the server for backend services.
+                Node.js allows developers to run JavaScript on the server for backend services. Still in progress
               </p>
               <div className="w-full">
                 <div className="flex justify-end mb-1 text-sm font-bold">

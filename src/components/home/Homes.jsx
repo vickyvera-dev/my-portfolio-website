@@ -79,7 +79,7 @@ export default function Homes() {
           {/* Buttons */}
           <div className="flex flex-row justify-center lg:justify-start items-center gap-4 mt-6" data-aos="fade-up" data-aos-delay="500">
             <a
-              href="https://drive.google.com/file/d/1aP-qi52KfAON3hB88xCi6YIh4PrlLaDE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_HycTjiimq01N0cwiDrHc3-2uZHy4Aj6/view?usp=sharing"
               className="px-6 py-2 rounded-full bg-yellow-600 text-[#F8EFEA] font-semibold
                          hover:bg-[#DED369] hover:text-[#192F01] transition"
             >
@@ -87,7 +87,7 @@ export default function Homes() {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1aP-qi52KfAON3hB88xCi6YIh4PrlLaDE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_HycTjiimq01N0cwiDrHc3-2uZHy4Aj6/view?usp=sharing"
               className="relative overflow-hidden flex items-center justify-center px-6 py-2 font-semibold text-[#F8EFEA] rounded-full transition-all duration-300 bg-yellow-600"
             >
               {/*-- Rotating border --*/}

@@ -51,7 +51,7 @@ About Me
             </p>
             <div className="flex flex-col lg:flex-row w-full items-center gap-6 mt-10">
               <a
-                href="https://drive.google.com/file/d/1aP-qi52KfAON3hB88xCi6YIh4PrlLaDE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_HycTjiimq01N0cwiDrHc3-2uZHy4Aj6/view?usp=sharing"
                 className="px-6 py-2 rounded-full bg-[#192F01] text-[#DED369] font-semibold
         hover:bg-[#192F01] transition ease-in-out duration-300 hover:border-[#192F01] hover:border flex flex-row gap-1 items-center"
               >
